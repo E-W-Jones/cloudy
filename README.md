@@ -1,3 +1,5 @@
+This is a fork of Cloudy, modified for my purposes.
+
 # Cloudy
 
 Cloudy is an _ab initio_ spectral synthesis code designed to model a wide range
