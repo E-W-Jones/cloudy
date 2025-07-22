@@ -77,7 +77,7 @@ endif
 # prevent using native optimizations for valgrind runs as valgrind may not support all hardware instructions
 ifeq ($(NATIVE),native)
   ifeq ($(filter -DVALGRIND,$(CXXFLAGS)),)
-    OPT += -march=native
+    OPT += -march=sandybridge  # cuillin is heterogeneous so compiling with native might be the wrong instruction set
   endif
 endif
 
